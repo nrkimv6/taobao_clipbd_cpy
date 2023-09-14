@@ -1,0 +1,7 @@
+body {
+    width: 300px;   /* Set your desired width */
+    height: 200px;  /* Set your desired height */
+    min-height: 200px !important;
+    font-family: Arial, sans-serif;
+    padding: 10px;
+}
