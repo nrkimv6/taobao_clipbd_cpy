@@ -18,3 +18,12 @@ chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
         return true;
     }
 });
+
+chrome.action.onClicked.addListener((tab) => {
+    chrome.windows.create({
+        url: chrome.runtime.getURL("popup.html"), // the URL of your popup's HTML
+        type: "popup",
+        width: 600,
+        height: 400
+    });
+});

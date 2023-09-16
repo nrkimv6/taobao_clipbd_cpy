@@ -3,12 +3,13 @@
     "name": "Clipboard Extension",
     "version": "1.0",
     "description": "Clipboard Reader Extension",
-    "permissions": ["clipboardRead", "activeTab", "storage"],
+    "permissions": ["clipboardRead", "activeTab", "storage", 
+    "windows"],
     "background": {
       "service_worker": "background.js"
     },
     "action": {
-      "default_popup": "popup.html",
+      "default_popup1_________________": "popup.html",
       "default_icon": {
         "16": "images/icon16.png",
         "48": "images/icon48.png",
